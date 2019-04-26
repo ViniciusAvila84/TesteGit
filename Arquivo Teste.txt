@@ -1,2 +1,13 @@
 Baixar o programa Git no site - https://git-scm.com/downloads
 Entrar dentro da pasta onde sera criado o repositorio GIT local  - Figura 1.
+$git init // para criar repositorio local
+$git add . //adiciona todos os arquivos para dentro do repositorio
+$git commit -m "informaçao necessaria" // comitar as info
+$git remote add origin https://github.com/ViniciusAvila84/TesteGit.git //Sincronizar com o Repositorio no GitHub
+$git push origin master //Envia para o Repositorio as modificações
+
+
+
+
+
+
