@@ -1,10 +1,22 @@
 Baixar o programa Git no site - https://git-scm.com/downloads
-Entrar dentro da pasta onde sera criado o repositorio GIT local  - Figura 1.
+
+//Criar Repositorio WEB - Criando_Rep_Git_WEB.jpg
+
+//Criar Repositorio Local - Figura 1
+Entrar dentro da pasta onde sera criado o repositorio GIT local
 $git init // para criar repositorio local
+
+
+//Inserir aquivos novos ou alterados no Rep Git
 $git add . //adiciona todos os arquivos para dentro do repositorio
 $git commit -m "informaçao necessaria" // comitar as info
-$git remote add origin https://github.com/ViniciusAvila84/TesteGit.git //Sincronizar com o Repositorio no GitHub
+$git remote add origin https://github.com/ViniciusAvila84/TesteGit.git //Sincronizar com o Repositorio no GitHub - Info_Rep_Git.jpg
 $git push origin master //Envia para o Repositorio as modificações
+
+
+//Clonar Rep Git
+$git clone https://github.com/ViniciusAvila84/TesteGit.git // Figura 3
+
 
 
 
